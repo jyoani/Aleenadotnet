@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/Aleenadotnet/providers/Microsoft.ServiceLinker/linkers/VaultUri_2AD5EEA325",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/aleenadotnetkeynew",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri",
+      "dynamicId": null
+    },
+    "mssql1": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/Aleenadotnet/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_C4881C0B73",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/aleenadotnetserver/databases/AleenaDotnetdb",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection",
+      "dynamicId": null
+    }
+  }
+}
